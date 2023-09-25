@@ -3,7 +3,7 @@ import subprocess
 
 # Change directory to the client folder
 os.chdir("./client")
-
+os.system("npm i")
 # Start npm run dev in the background
 npm_process = subprocess.Popen(["npm", "run", "dev"])
 
